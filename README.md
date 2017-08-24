@@ -3,6 +3,7 @@
 
 Docker Project/POC to deploy using Docker Compose the product : OCSG 6.1 ( Oracle Communications Gatekeeper)
 
+*Note:* Remember that you need modify some basic parameters and dowload correct software to successfully build/run images
 
 ## Requisites
 
@@ -32,3 +33,14 @@ Copy the next files from *official Oracle Download WebSites* to main directory w
   ## Test Product
 
   > Access to the WebLogic Console under 7001 port to check the Admin Node
+  
+  ## Tested on
+  
+    * Local Docker Environment with Docker Service/Compose running under CentOS 7.x/6.x
+    * Local Kubernetes Environment (Configuration for these files are not included here)
+    
+  ## Future Works
+  
+    * Improve implementation and design
+    * Test integration with CM Soft
+  
